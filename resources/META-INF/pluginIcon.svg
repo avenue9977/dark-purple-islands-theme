@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Dark Islands background -->
+  <rect width="80" height="80" rx="16" fill="#1D1D26"/>
+
+  <g fill-rule="evenodd">
+    <!-- Top-left -->
+    <polygon fill="#72548F" stroke="#72548F" stroke-width="4" stroke-linejoin="round" paint-order="stroke"
+             points="13.2,21 36.9,34.7 36.9,7.3"/>
+    <!-- Left -->
+    <polygon fill="#6F678F" stroke="#6F678F" stroke-width="4" stroke-linejoin="round" paint-order="stroke"
+             points="34.2,40 10.1,26.3 10.1,53.7"/>
+    <!-- Bottom-left -->
+    <polygon fill="#5F5F70" stroke="#5F5F70" stroke-width="4" stroke-linejoin="round" paint-order="stroke"
+             points="36.9,45.3 13.2,59 36.9,72.7"/>
+    <!-- Bottom-right -->
+    <polygon fill="#56565E" stroke="#56565E" stroke-width="4" stroke-linejoin="round" paint-order="stroke"
+             points="43.1,45.3 43.1,72.7 66.8,59"/>
+    <!-- Right -->
+    <polygon fill="#C87FEA" stroke="#C87FEA" stroke-width="4" stroke-linejoin="round" paint-order="stroke"
+             points="69.9,26.3 45.8,40 69.9,53.7"/>
+    <!-- Top-right -->
+    <polygon fill="#A055BF" stroke="#A055BF" stroke-width="4" stroke-linejoin="round" paint-order="stroke"
+             points="43.1,7.3 43.1,34.7 66.8,21"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+out/
+build/
+.gradle/
+*.jar
+.DS_Store
+.claude/
+.intellijPlatform/
+.idea/workspace.xml
+.idea/shelf/
+.idea/queries/
+.idea/dataSources/

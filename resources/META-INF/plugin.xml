@@ -1,0 +1,44 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>dark-purple-islands</id>
+    <version>1.0.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
+    <name>Dark Purple Islands</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor>Community</vendor>
+
+    <idea-version since-build="252.25557"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
+    <description><![CDATA[
+        Dark Purple Islands combines the <strong>Dark Purple</strong> color palette — deep `#2C2C3B`
+        backgrounds, vivid purple selections and accents — with the modern
+        <strong>Islands UX</strong> design language introduced in IntelliJ IDEA 2024+.<br><br>
+        Features:
+        <ul>
+          <li>Full Islands UX layout (transparent borders, floating tool windows)</li>
+          <li>Dark Purple syntax highlighting for all major languages</li>
+          <li>Consistent color scheme across editor, terminal, diff, and Git log</li>
+        </ul>
+    ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+        Initial release of the theme.
+    ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="dark-purple-islands" path="/theme/darkpurpleislands.theme.json"/>
+    </extensions>
+</idea-plugin>
