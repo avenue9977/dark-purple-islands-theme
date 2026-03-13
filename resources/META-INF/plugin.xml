@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>dark-purple-islands</id>
+    <id>com.github.avenue9977.darkpurpleislands</id>
     <version>1.0.0</version>
 
     <!-- Public plugin name should be written in Title Case.
@@ -10,28 +10,34 @@
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor>Community</vendor>
+    <vendor url="https://github.com/avenue9977/dark-purple-islands-theme" email="nikola.chetelyazov@gmail.com">Nikola Chetelyazov</vendor>
 
     <idea-version since-build="252.25557"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Dark Purple Islands combines the <strong>Dark Purple</strong> color palette — deep `#2C2C3B`
-        backgrounds, vivid purple selections and accents — with the modern
-        <strong>Islands UX</strong> design language introduced in IntelliJ IDEA 2024+.<br><br>
-        Features:
+        A dark purple theme with Islands UX design for a modern, immersive coding experience.<br><br>
+        Based on the popular <a href="https://plugins.jetbrains.com/plugin/12100-dark-purple-theme">Dark Purple Theme</a>
+        by Olga Berdnikova, redesigned for the Islands interface introduced in IntelliJ 2024+.<br><br>
         <ul>
-          <li>Full Islands UX layout (transparent borders, floating tool windows)</li>
-          <li>Dark Purple syntax highlighting for all major languages</li>
-          <li>Consistent color scheme across editor, terminal, diff, and Git log</li>
+          <li>Full Islands UX layout with floating tool windows and transparent borders</li>
+          <li>Deep purple editor background with vivid purple accents and selections</li>
+          <li>Matching syntax highlighting for all major languages</li>
+          <li>Consistent colors across editor, terminal, diff viewer, and Git log</li>
+          <li>Custom icon color palette tuned to the purple theme</li>
         </ul>
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        Initial release of the theme.
+        <b>1.0.0</b>
+        <ul>
+          <li>Initial release with full Islands UX support</li>
+          <li>Dark Purple color scheme for syntax highlighting</li>
+          <li>Custom icon color palette</li>
+        </ul>
     ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
@@ -39,6 +45,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="dark-purple-islands" path="/theme/darkpurpleislands.theme.json"/>
+        <themeProvider id="com.github.avenue9977.darkpurpleislands" path="/theme/darkpurpleislands.theme.json"/>
     </extensions>
 </idea-plugin>
