@@ -14,8 +14,6 @@ Based on the original [Dark Purple Theme](https://plugins.jetbrains.com/plugin/1
 
 ## Installation
 
-<iframe width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/30662"></iframe>
-
 - Go to _Settings (Preferences) | Plugins_, search for **Dark Purple Islands Theme** and install it
 - Restart the IDE
 - Go to _Settings (Preferences) | Appearance & Behavior | Appearance_ and select **Dark Purple Islands Theme** from the _Theme_ dropdown
