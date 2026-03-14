@@ -6,7 +6,7 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
-    <name>Dark Purple Islands</name>
+    <name>Dark Purple Islands Theme</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
@@ -27,6 +27,11 @@
           <li>Consistent colors across editor, terminal, diff viewer, and Git log</li>
           <li>Custom icon color palette tuned to the purple theme</li>
         </ul>
+
+        <a href="https://github.com/avenue9977/dark-purple-islands-theme/issues">Report an issue</a>  |  <a href="https://github.com/avenue9977/dark-purple-islands-theme">On GitHub</a>  |  <a href="https://plugins.jetbrains.com/docs/intellij/themes-getting-started.html">How to make a theme</a>
+  <br/><br/><br/>
+
+
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
